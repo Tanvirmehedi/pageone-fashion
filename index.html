@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageOne-Fashion TailWind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#FFFBF0] px-4">
+    <header class="container mx-auto pt-6">
+      <nav class="flex justify-around items-center">
+        <div class="logo_box">
+          <img class="w-4/5" src="./images/logo.png" alt="" />
+        </div>
+        <div class="menu_button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 cursor-pointer"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </nav>
+      <!--======================================== END OF NAV BAR -->
+      <section id="hero_part" class="mt-6 space-y-7 flex flex-col items-center">
+        <img class="w-5/6" src="./images/model.png" alt="" />
+        <div class="space-y-3">
+          <h1 class="text-5xl text-[#FABE4C] font-bold">
+            Be the Penguins <br />
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p class="text-base text-[#3E3E3E]">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 inline"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            <span class="inline ml-1">Buy Now</span>
+          </button>
+        </div>
+      </section>
+      <!-- -_________________Hero Part End_______________ -->
+    </header>
+    <!-- END OF HEADER================================================= -->
+    <main>
+      <section id="women_jacker" class="mt-14">
+        <h2 class="uppercase text-center text-4xl font-bold text-[#363958]">
+          W0Man Jacket
+        </h2>
+        <div class="women_jacket_box flex flex-col items-center space-y-5">
+          <!-- CARD START ______________________________________________ -->
+          <div class="card px-4 py-3 shadow-2xl w-3/4 mt-10">
+            <div class="img_box bg-[#F1F1F1] px-4 py-3 rounded-xl">
+              <img class="w-72" src="./images/jacket-1.png" alt="jacket-1" />
+            </div>
+            <div class="info_box space-y-2 pt-3">
+              <h3 class="text-[#363958] text-2xl font-semibold">
+                Yellow Coat Jacket
+              </h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="button_box flex items-center pt-3">
+                <span class="font-bold mr-3 text-4xl text-[#FABE4C]">$234</span>
+                <button
+                  class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  <span class="inline ml-1">Buy Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD START ______________________________________________ -->
+          <div class="card px-4 py-3 shadow-2xl w-3/4 mt-10">
+            <div class="img_box bg-[#F1F1F1] px-4 py-3 rounded-xl">
+              <img class="w-72" src="./images/jacket-2.png" alt="jacket-1" />
+            </div>
+            <div class="info_box space-y-2 pt-3">
+              <h3 class="text-[#363958] text-2xl font-semibold">
+                50% Yellow Coat Jacket
+              </h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="button_box flex items-center pt-3">
+                <span class="font-bold mr-3 text-4xl text-[#FABE4C]">$234</span>
+                <button
+                  class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  <span class="inline ml-1">Buy Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD START ______________________________________________ -->
+          <div class="card px-4 py-3 shadow-2xl w-3/4 mt-10">
+            <div class="img_box bg-[#F1F1F1] px-4 py-3 rounded-xl">
+              <img class="w-72" src="./images/jacket-3.png" alt="jacket-1" />
+            </div>
+            <div class="info_box space-y-2 pt-3">
+              <h3 class="text-[#363958] text-2xl font-semibold">
+                Red Coat Jacket
+              </h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="button_box flex items-center pt-3">
+                <span class="font-bold mr-3 text-4xl text-[#FABE4C]">$234</span>
+                <button
+                  class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  <span class="inline ml-1">Buy Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ___________________START OF MAN JACKET_________________________________ -->
+      <section id="women_jacker" class="mt-14">
+        <h2 class="uppercase text-center text-4xl font-bold text-[#363958]">
+          Man Jacket
+        </h2>
+        <div class="women_jacket_box flex flex-col items-center space-y-5">
+          <!-- CARD START ______________________________________________ -->
+          <div class="card px-4 py-3 shadow-2xl w-3/4 mt-10">
+            <div class="img_box bg-[#F1F1F1] px-4 py-3 rounded-xl">
+              <img class="w-72" src="./images/jacket-4.png" alt="jacket-1" />
+            </div>
+            <div class="info_box space-y-2 pt-3">
+              <h3 class="text-[#363958] text-2xl font-semibold">
+                Yellow Man Coat Jacket
+              </h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="button_box flex items-center pt-3">
+                <span class="font-bold mr-3 text-4xl text-[#FABE4C]">$234</span>
+                <button
+                  class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  <span class="inline ml-1">Buy Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD START ______________________________________________ -->
+          <div class="card px-4 py-3 shadow-2xl w-3/4 mt-10">
+            <div class="img_box bg-[#F1F1F1] px-4 py-3 rounded-xl">
+              <img class="w-72" src="./images/jacket-5.png" alt="jacket-1" />
+            </div>
+            <div class="info_box space-y-2 pt-3">
+              <h3 class="text-[#363958] text-2xl font-semibold">
+                Red Coat Jacket
+              </h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="button_box flex items-center pt-3">
+                <span class="font-bold mr-3 text-4xl text-[#FABE4C]">$234</span>
+                <button
+                  class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  <span class="inline ml-1">Buy Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD START ______________________________________________ -->
+          <div class="card px-4 py-3 shadow-2xl w-3/4 mt-10">
+            <div class="img_box bg-[#F1F1F1] px-4 py-3 rounded-xl">
+              <img class="w-72" src="./images/jacket-6.png" alt="jacket-1" />
+            </div>
+            <div class="info_box space-y-2 pt-3">
+              <h3 class="text-[#363958] text-2xl font-semibold">
+                Black Coat Jacket
+              </h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="button_box flex items-center pt-3">
+                <span class="font-bold mr-3 text-4xl text-[#FABE4C]">$234</span>
+                <button
+                  class="px-4 py-2 bg-[#A4BC46] rounded-lg flex justify-center items-center text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 inline"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  <span class="inline ml-1">Buy Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF MAN JACKET -->
+    </main>
+  </body>
+</html>
